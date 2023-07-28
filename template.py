@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 project_name = "cnnClassifier"
 
 list_of_files = [
-    ".github/workflows/.gitkeep", 
+    # ".github/workflows/.gitkeep", 
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
@@ -22,7 +22,8 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
-    "README.md"
+    "README.md",
+    "templates/index.html"
     ]
 
 for filepath in list_of_files:
