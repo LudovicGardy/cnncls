@@ -300,3 +300,10 @@ x==========x
 [2023-08-01 15:17:51,875]: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x
+[2023-08-02 16:04:05,725]: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.5:8080
+[2023-08-02 16:04:05,725]: INFO: _internal: [33mPress CTRL+C to quit[0m
+[2023-08-02 16:04:13,061]: INFO: _internal: 127.0.0.1 - - [02/Aug/2023 16:04:13] "GET / HTTP/1.1" 200 -
+[2023-08-02 16:04:55,965]: INFO: _internal: 127.0.0.1 - - [02/Aug/2023 16:04:55] "POST /predict HTTP/1.1" 200 -
